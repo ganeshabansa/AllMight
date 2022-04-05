@@ -1,2 +1,4 @@
 # AllMight
-Thinking of starting new IT Giant.... HaHa. 
+/This site is under construction
+Thinking of starting new IT Giant... (Lol)
+
