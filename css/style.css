@@ -1,0 +1,242 @@
+/* 
+------------------------------------------
+Helper classes
+------------------------------------------
+*/
+.highlight-color {
+  color: #53b380; }
+
+.highlight-bg {
+  background-color: #53b380; }
+
+/* 
+------------------------------------------
+Forms and inputs
+------------------------------------------
+*/
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"],
+
+textarea {
+  background: #e6e6e6;
+  color: #8a908d;
+  display: table;
+  margin: 0 0 10px 0;
+  padding: 15px 20px 12px 20px;
+  width: 100%;
+  border: 2px solid #e6e6e6;
+  outline: none;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; }
+
+  input[type="email"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, input[type="color"]::-webkit-input-placeholder, input[type="date"]::-webkit-input-placeholder, input[type="datetime"]::-webkit-input-placeholder, input[type="datetime-local"]::-webkit-input-placeholder, input[type="month"]::-webkit-input-placeholder, input[type="time"]::-webkit-input-placeholder, input[type="week"]::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    color: #666; }
+  input[type="email"]:-moz-placeholder, input[type="number"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="search"]:-moz-placeholder, input[type="tel"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input[type="url"]:-moz-placeholder, input[type="color"]:-moz-placeholder, input[type="date"]:-moz-placeholder, input[type="datetime"]:-moz-placeholder, input[type="datetime-local"]:-moz-placeholder, input[type="month"]:-moz-placeholder, input[type="time"]:-moz-placeholder, input[type="week"]:-moz-placeholder,
+  textarea:-moz-placeholder {
+    color: #666; }
+    input[type="email"]:-moz-placeholder:focus, input[type="number"]:-moz-placeholder:focus, input[type="password"]:-moz-placeholder:focus, input[type="search"]:-moz-placeholder:focus, input[type="tel"]:-moz-placeholder:focus, input[type="text"]:-moz-placeholder:focus, input[type="url"]:-moz-placeholder:focus, input[type="color"]:-moz-placeholder:focus, input[type="date"]:-moz-placeholder:focus, input[type="datetime"]:-moz-placeholder:focus, input[type="datetime-local"]:-moz-placeholder:focus, input[type="month"]:-moz-placeholder:focus, input[type="time"]:-moz-placeholder:focus, input[type="week"]:-moz-placeholder:focus,
+    textarea:-moz-placeholder:focus {
+      color: #51b27f; }
+  input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
+  textarea:focus {
+    color: #51b27f; }
+    input[type="email"]:focus::-webkit-input-placeholder, input[type="number"]:focus::-webkit-input-placeholder, input[type="password"]:focus::-webkit-input-placeholder, input[type="search"]:focus::-webkit-input-placeholder, input[type="tel"]:focus::-webkit-input-placeholder, input[type="text"]:focus::-webkit-input-placeholder, input[type="url"]:focus::-webkit-input-placeholder, input[type="color"]:focus::-webkit-input-placeholder, input[type="date"]:focus::-webkit-input-placeholder, input[type="datetime"]:focus::-webkit-input-placeholder, input[type="datetime-local"]:focus::-webkit-input-placeholder, input[type="month"]:focus::-webkit-input-placeholder, input[type="time"]:focus::-webkit-input-placeholder, input[type="week"]:focus::-webkit-input-placeholder,
+    textarea:focus::-webkit-input-placeholder {
+      color: #51b27f; }
+
+textarea {
+  padding: 15px 20px 15px 20px; }
+
+input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus {
+  background: #cceada;
+  color: #51b27f;
+  border-color: #51b27f; }
+
+input[type=submit], .submit {
+  background: none;
+  color: #fff;
+  display: table;
+  margin-top: 10px;
+  line-height: 100%;
+  outline: none;
+  text-align: center;
+  width: 100%;
+  border: 2px solid #53b380;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px; }
+  input[type=submit]:hover, .submit:hover {
+    color: #fff;
+    background: #53b380; }
+
+.inline-label {
+  padding: 0.55556rem 0;
+  float: left; 
+  color: #fff;
+
+}
+
+.contact-form {
+  padding: 0 0 80px 0; }
+  .contact-form input[type=submit] {
+    margin-top: 40px; }
+
+/* 
+------------------------------------------
+A simple 12 column grid
+------------------------------------------
+*/
+.row {
+  display: table;
+  position: relative;
+  width: 100%; }
+  .row .columns {
+    float: left;
+    width: 100%;
+    position: relative;
+    width: 100%;
+    padding: 0 15px; }
+    .row .columns.col-12 {
+      width: 100%; }
+    .row .columns.col-11 {
+      width: 91.66667%; }
+    .row .columns.col-10 {
+      width: 83.33333%; }
+    .row .columns.col-9 {
+      width: 75%; }
+    .row .columns.col-8 {
+      width: 66.66667%; }
+    .row .columns.col-7 {
+      width: 58.33333%; }
+    .row .columns.col-6 {
+      width: 50%; }
+    .row .columns.col-5 {
+      width: 41.66667%; }
+    .row .columns.col-4 {
+      width: 33.33333%; }
+    .row .columns.col-3 {
+      width: 25%; }
+    .row .columns.col-2 {
+      width: 16.66667%; }
+    .row .columns.col-1 {
+      width: 8.33333%; }
+    .row .columns.col-centered {
+      display: table;
+      float: none;
+      margin: auto; }
+
+@media screen and (max-width: 1140px) {
+  .header .main-nav {
+    font-size: 14px; }
+    .header .main-nav li {
+      padding: 0px 5px !important; }
+      .header .main-nav li a {
+        padding: 12px 15px; } }
+@media screen and (max-width: 900px) {
+  .header > .max-inner > .col-3 {
+    width: 100%; }
+  .header .toggle-off-canvas {
+    display: block; }
+  .header .main-nav,
+  .header .social-links {
+    display: none;
+    visibility: hidden; }
+
+  .plans-wrapper .pricing-plan .plan-desc {
+    padding-left: 16.66667%; } }
+@media screen and (max-width: 800px) {
+  .header > .max-inner > .col-3 {
+    display: table;
+    margin: auto;
+    width: auto;
+    float: none; }
+
+  .features-listing .feature .feature-image,
+  .features-listing .feature .feature-desc {
+    float: none !important;
+    margin: auto;
+    width: 90% !important;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .features-listing .feature .feature-image img,
+    .features-listing .feature .feature-desc img {
+      width: 100%; }
+
+  .reviews-col {
+    display: table;
+    float: none !important;
+    margin: auto;
+    width: 100% !important; }
+
+  .order-form .columns {
+    display: table;
+    float: none;
+    width: 100% !important;
+    padding: 0; }
+  .order-form .submit {
+    float: left !important;
+    margin: 30px 0 0; }
+
+  .plans-wrapper .select-price {
+    color: #8a908d;
+    display: table;
+    margin: 0 auto 70px; }
+  .plans-wrapper .pricing-plan {
+    display: table;
+    float: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 0 auto;
+    max-width: 90%; }
+    .plans-wrapper .pricing-plan:before {
+      position: relative;
+      left: auto;
+      margin: -60px auto 0; }
+    .plans-wrapper .pricing-plan .plan-desc {
+      width: 90%;
+      padding: 0 20px;
+      text-align: center; }
+    .plans-wrapper .pricing-plan .columns {
+      display: table;
+      float: none;
+      margin: auto;
+      padding: 0; } }
+@media screen and (max-width: 700px) {
+  .alt-style .columns {
+    width: 100% !important;
+    float: none; }
+  .alt-style figure.rounded,
+  .alt-style .iphone-wrapper {
+    display: table;
+    float: none;
+    margin: 20px auto;
+    max-width: 100%; }
+    .alt-style figure.rounded .indicator-line,
+    .alt-style .iphone-wrapper .indicator-line {
+      display: none;
+      visibility: hidden; }
+
+  .reviews-slider {
+    width: 100% !important; }
+  .contact-form .columns {
+    display: table;
+    float: none;
+    width: 100% !important;
+    padding: 0; }
+  .contact-form .submit {
+    float: left !important;
+    margin: 30px 0 0; }
+  .contact-form label {
+    padding-left: 23px; }
+  .contact-form textarea {
+    margin-top: 25px; } }
+@media screen and (max-width: 440px) {
+  .faqs .faq .faq-q > .columns {
+    float: none !important; }
+    .faqs .faq .faq-q > .columns .faq-rating {
+      padding-left: 48px; } }
